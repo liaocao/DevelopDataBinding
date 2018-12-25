@@ -1,4 +1,4 @@
-package com.cookie.developdatabinding;
+package com.cookie.developdatabinding.A;
 
 public class User {
     private String firstName;

@@ -7,7 +7,7 @@
 
         <variable
             name="handle"
-            type="com.cookie.developdatabinding.MyHandler" />
+            type="com.cookie.developdatabinding.A.MyHandler" />
     </data>
 
     <LinearLayout

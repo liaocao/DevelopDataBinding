@@ -1,4 +1,4 @@
-package com.cookie.developdatabinding;
+package com.cookie.developdatabinding.A;
 
 import android.app.Application;
 

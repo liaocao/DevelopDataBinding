@@ -1,9 +1,10 @@
-package com.cookie.developdatabinding;
+package com.cookie.developdatabinding.A;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+import com.cookie.developdatabinding.R;
 import com.cookie.developdatabinding.databinding.ActivityMainBinding;
 
 public class TextViewActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.cookie.developdatabinding;
+package com.cookie.developdatabinding.A;
 
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.cookie.developdatabinding.R;
 import com.cookie.developdatabinding.databinding.ActivityOnClickBinding;
 
 public class OnClickActivity extends AppCompatActivity {

@@ -1,10 +1,11 @@
-package com.cookie.developdatabinding;
+package com.cookie.developdatabinding.A;
 
 import android.databinding.DataBindingUtil;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.cookie.developdatabinding.R;
 import com.cookie.developdatabinding.databinding.ActivityDelayBinding;
 
 public class DelayActivity extends AppCompatActivity {

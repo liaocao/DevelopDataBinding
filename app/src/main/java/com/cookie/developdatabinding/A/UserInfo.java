@@ -1,7 +1,9 @@
-package com.cookie.developdatabinding;
+package com.cookie.developdatabinding.A;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
+
+import com.cookie.developdatabinding.BR;
 
 public class UserInfo extends BaseObservable {
     private String firstName;
@@ -24,11 +26,11 @@ public class UserInfo extends BaseObservable {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
-//        notifyPropertyChanged(BR.lastName);
+        notifyPropertyChanged(BR.lastName);
     }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
-//        notifyPropertyChanged(BR.firstName);
+        notifyPropertyChanged(BR.firstName);
     }
 }

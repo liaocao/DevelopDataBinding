@@ -4,7 +4,7 @@
     <data>
         <variable
             name="user"
-            type="com.cookie.developdatabinding.User"/>
+            type="com.cookie.developdatabinding.A.User"/>
     </data>
 
     <LinearLayout

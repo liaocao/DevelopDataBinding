@@ -6,10 +6,10 @@
     <data>
         <variable
             name="user"
-            type="com.cookie.developdatabinding.User"/>
+            type="com.cookie.developdatabinding.A.User"/>
         <variable
             name="handle"
-            type="com.cookie.developdatabinding.MyHandler" />
+            type="com.cookie.developdatabinding.A.MyHandler" />
     </data>
 
     <LinearLayout
@@ -17,7 +17,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        tools:context=".DelayActivity">
+        tools:context=".A.DelayActivity">
 
         <TextView
             android:layout_width="wrap_content"
