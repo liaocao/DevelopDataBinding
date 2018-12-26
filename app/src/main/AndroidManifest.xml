@@ -35,7 +35,8 @@
         <activity android:name=".B.AfterTextChangedActivity" />
         <activity android:name=".B.LoadImageActivity" />
         <activity android:name=".B.ChangeTextActivity" />
-        <activity android:name=".B.AllCollectionActivity"></activity>
+        <activity android:name=".B.AllCollectionActivity" />
+        <activity android:name=".C.SingleListActivity"></activity>
     </application>
 
 </manifest>

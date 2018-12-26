@@ -23,6 +23,7 @@ import com.cookie.developdatabinding.B.DuplexingActivity;
 import com.cookie.developdatabinding.B.GoodsActivity;
 import com.cookie.developdatabinding.B.LoadImageActivity;
 import com.cookie.developdatabinding.B.ObservableGoodsActivity;
+import com.cookie.developdatabinding.C.SingleListActivity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -56,6 +57,7 @@ public class MainActivity extends ListActivity {
         addItem(myData, "LoadImageActivity", new Intent(this, LoadImageActivity.class));
         addItem(myData, "ChangeTextActivity", new Intent(this, ChangeTextActivity.class));
         addItem(myData, "AllCollectionActivity", new Intent(this, AllCollectionActivity.class));
+        addItem(myData, "SingleListActivity", new Intent(this, SingleListActivity.class));
         return myData;
     }
 
